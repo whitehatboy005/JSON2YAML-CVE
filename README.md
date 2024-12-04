@@ -9,14 +9,15 @@ With **JSON2YAML**, you can seamlessly convert detailed CVE records into a reada
 - **Error Handling:** Provides error messages when the required CVE data is missing or improperly formatted.
 - **Easy-to-Use:** A simple, command-line based tool that converts individual CVEs or batches of CVE data quickly and efficiently.
 #
-## EXAMPLE 
-CVE Json file input
+## Example Input:
+**Provide a JSON file with CVE details such as ID, description, CVSS score, references, and affected products.**
 ![Screenshot 2024-12-04 082124](https://github.com/user-attachments/assets/18e24f94-0912-4d3f-b9bc-1e9706c39b98)
 
-JSON2YAML conversion
+## JSON2YAML conversion
 ![Screenshot 2024-12-04 082034](https://github.com/user-attachments/assets/ac9575aa-8cbd-4422-abaa-96b84b0a1e27)
 
-CVE Yaml file output
+## Example Output:
+**A neatly formatted YAML file with structured CVE information.**
 ![Screenshot 2024-12-04 082205](https://github.com/user-attachments/assets/edd6b840-7cd7-4c0c-9fa2-499bf5e0efb5)
 
 #
@@ -37,11 +38,6 @@ python json2yaml.py
 ```
 - **Input the path to your JSON file when prompted.**
 - **The script will automatically generate a YAML file named after the CVE ID.**
-## Example Input:
-**Provide a JSON file with CVE details such as ID, description, CVSS score, references, and affected products.**
-
-## Example Output:
-**A neatly formatted YAML file with structured CVE information.**
 
 ## Contribution:
 **Contributions are welcome! If you have any suggestions for improvements or bug fixes, feel free to submit a pull request.**
